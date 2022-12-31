@@ -40,16 +40,18 @@
 
         height: 30px;
         font-size: 1rem;
-        width: 180px;
+        width: 250px;
         margin: auto;
+        
 
     }
 
     input{
 
-        width: 80px;
-        
+        background-color: none;
+
     }
+
 
     #link1{
 
