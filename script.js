@@ -1,8 +1,10 @@
+
+
 function clicar(){
     var a = window.document.getElementById('tel')
     var n1 = Number(a.value)
-    var link2 = 'wa.me/'
-    var s = link2 + n1
+    var link2 = `<a href="https://wa.me/${n1}" target="_blank">CLIQUE AQUI</a>`
+    var s = link2
     var res = window.document.getElementById('res')
     link1.innerHTML = s
 }
